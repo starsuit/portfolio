@@ -106,6 +106,21 @@ a:hover {
   height: 100%;
 }
 
+.dark-card {
+  list-style: none;
+  background-color: white;
+  box-shadow: 0 12px 32px hsla(240, 20%, 10%, 0.3),
+    0 4px 16px hsla(240, 20%, 10%, 0.4);
+  border-radius: 2px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(252, 60%, 15%, 0.4);
+  color: white;
+  padding: 2rem;
+  display: none;
+}
+
 .overlay {
   height: 100%;
   position: absolute;
@@ -138,6 +153,11 @@ a:hover {
   .card-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .dark-card {
+    display: block;
+  }
+
   .overlay {
     padding: 1em;
   }
