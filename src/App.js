@@ -1,6 +1,8 @@
 import React from "react";
 import starsuit from "./starsuit.svg";
 import CardContainer from "./CardContainer";
+import Hello from "./Hello";
+import ContactInfo from "./ContactInfo";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <img src={starsuit} className="App-logo" alt="logo" />
       </header>
       <main>
+        <Hello />
+        <ContactInfo />
         <section className="project-links">
           <CardContainer />
         </section>
