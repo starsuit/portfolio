@@ -2,8 +2,16 @@ import smoothieBar from "./assets/smoothie-bar.png";
 import jsCalculator from "./assets/calculator.png";
 import toDoApp from "./assets/to-do.png";
 import sheRa from "./assets/she-ra.png";
+import neopetsApi from "./assets/neopets-api.png";
 
 const cardData = [
+  {
+    url: "https://github.com/starsuit/neopets",
+    image: neopetsApi,
+    alt: "neopets api",
+    title: "NeoPets API",
+    description: "A tiny API that returns NeoPets data"
+  },
   {
     url: "https://github.com/starsuit/she-ra-character-selector",
     image: sheRa,
