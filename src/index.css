@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.App-logo {
+  width: 10em;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -9,13 +20,13 @@ body {
   align-items: center;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: hsl(252, 40%, 10%);
+  color: hsl(var(--col1), 40%, 10%);
   background-image: linear-gradient(
     -45deg,
-    hsl(252, 60%, 55%),
-    hsl(284, 52%, 72%),
-    hsl(358, 90%, 82%),
-    hsl(360, 100%, 90%)
+    hsl(var(--col1), 60%, 55%),
+    hsl(var(--col2), 52%, 72%),
+    hsl(var(--col3), 90%, 82%),
+    hsl(var(--col4), 100%, 90%)
   );
   margin: 0;
 }
@@ -40,7 +51,7 @@ h1 {
   margin: 0;
   font-size: 4rem;
   text-align: center;
-  text-shadow: -1px -1px 0 hsl(358, 90%, 88%);
+  text-shadow: -1px -1px 0 hsl(var(--col3), 90%, 88%);
   font-weight: 600;
   letter-spacing: -2px;
   font-family: Georgia, serif;
@@ -89,8 +100,8 @@ a:hover {
 .card {
   list-style: none;
   background-color: white;
-  box-shadow: 0 12px 32px hsla(240, 20%, 10%, 0.3),
-    0 4px 16px hsla(240, 20%, 10%, 0.4);
+  box-shadow: 0 12px 32px hsla(var(--col1), 20%, 10%, 0.3),
+    0 4px 16px hsla(var(--col1), 20%, 10%, 0.4);
   border-radius: 2px;
   overflow: hidden;
 }
@@ -115,7 +126,7 @@ a:hover {
   overflow: hidden;
   height: 100%;
   width: 100%;
-  background-color: hsla(252, 60%, 15%, 0.4);
+  background-color: hsla(var(--col1), 60%, 15%, 0.4);
   color: white;
   padding: 2rem;
   display: none;
@@ -126,7 +137,7 @@ a:hover {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: hsla(252, 60%, 15%, 0.8);
+  background-color: hsla(var(--col1), 60%, 15%, 0.8);
   opacity: 0;
   color: white;
   padding: 2rem;
