@@ -1,5 +1,7 @@
 import React from "react";
 
+import CV from "./assets/CV.pdf";
+
 const Hello = props => {
   return (
     <React.Fragment>
@@ -9,7 +11,7 @@ const Hello = props => {
         <a href="https://www.foundersandcoders.com/">Founders and Coders</a>
       </p>
       <p className="cv">
-        <a href="CV.pdf" target="_blank" rel="noopener">
+        <a href={CV} target="_blank" rel="noopener">
           Download my CV{" "}
           <svg
             viewBox="0 0 32 32"
