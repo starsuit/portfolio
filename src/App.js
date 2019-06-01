@@ -42,7 +42,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Starsuit className="App-logo" alt="logo" />
+        <a
+          href="https://codepen.io/Starsuit/pen/mQzOzm"
+          aria-label="link to this svg in codepen"
+        >
+          <Starsuit className="App-logo" alt="logo" />
+        </a>
       </header>
       <main>
         <Hello />
