@@ -10,8 +10,9 @@ const Hello = props => {
         I'm learning to be a full-stack web developer at{" "}
         <a href="https://www.foundersandcoders.com/">Founders and Coders</a>
       </p>
+
       <p className="cv">
-        <a href={CV} target="_blank" rel="noopener">
+        <a href={CV} target="_blank" rel="noopener noreferrer">
           Download my CV{" "}
           <svg
             viewBox="0 0 32 32"

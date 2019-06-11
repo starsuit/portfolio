@@ -9,8 +9,15 @@ header {
   padding: 1em;
 }
 
-.App-logo {
-  width: 10em;
+.portrait {
+  margin: 2em auto;
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  box-shadow: 0 12px 32px hsla(var(--col1), 20%, 10%, 0.3),
+    0 4px 16px hsla(var(--col1), 20%, 10%, 0.4);
+
+  border-radius: 2px;
 }
 
 body {

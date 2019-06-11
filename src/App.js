@@ -1,8 +1,9 @@
 import React from "react";
-import { ReactComponent as Starsuit } from "./starsuit.svg";
 import CardContainer from "./CardContainer";
 import Hello from "./Hello";
 import ContactInfo from "./ContactInfo";
+
+import portrait from "./assets/portrait.jpg";
 
 const limit = (lower, upper, x, y) => {
   const diff = upper - lower;
@@ -41,15 +42,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          href="https://codepen.io/Starsuit/pen/mQzOzm"
-          aria-label="link to this svg in codepen"
-        >
-          <Starsuit className="App-logo" alt="logo" />
-        </a>
-      </header>
       <main>
+        <img className="portrait" src={portrait} alt="me" />
         <Hello />
         <ContactInfo />
         <section className="project-links">
