@@ -12,6 +12,7 @@ header {
 .portrait {
   margin: 2em auto;
   width: 20em;
+  max-width: 100%;
   height: 20em;
   object-fit: cover;
   box-shadow: 0 12px 32px hsla(var(--col1), 20%, 10%, 0.3),
