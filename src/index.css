@@ -146,21 +146,16 @@ a:hover {
   top: 0;
   width: 100%;
   background-color: hsla(var(--col1), 60%, 15%, 0.8);
-  opacity: 0;
+  opacity: 1;
   color: white;
   padding: 2rem;
   transition: opacity 0.3s;
 }
 
-.overlay:hover,
-.card a:focus .overlay {
-  opacity: 1;
-}
-
 .overlay p {
   margin-top: 0.5em;
   line-height: 1.5;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .overlay h2 {
@@ -179,11 +174,17 @@ a:hover {
 
   .overlay {
     padding: 1em;
+    opacity: 0;
   }
   .overlay p {
     font-size: 1em;
   }
   .overlay h2 {
     font-size: 1.5em;
+  }
+
+  .overlay:hover,
+  .card a:focus .overlay {
+    opacity: 1;
   }
 }
