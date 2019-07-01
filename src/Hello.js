@@ -7,7 +7,7 @@ const Hello = props => {
     <React.Fragment>
       <h1>Hi, I'm Sam</h1>
       <p className="subtitle">
-        I'm learning to be a full-stack web developer at{" "}
+        I'm a full-stack web developer, trained by{" "}
         <a href="https://www.foundersandcoders.com/">Founders and Coders</a>
       </p>
 
