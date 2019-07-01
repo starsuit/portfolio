@@ -5,6 +5,7 @@ import sheRa from "./assets/she-ra.png";
 import neopetsApi from "./assets/neopets-api.png";
 import mastermind from "./assets/mastermind.png";
 import bookBrowse from "./assets/book-browse.jpg";
+import recyclingHeroes from "./assets/recycling-heroes.jpg";
 
 const cardData = [
   {
@@ -13,6 +14,13 @@ const cardData = [
     alt: "book searching app",
     title: "Book Browse",
     description: "Python & Django app allowing the user to search books."
+  },
+  {
+    url: "https://github.com/starsuit/RE4.W",
+    image: recyclingHeroes,
+    alt: "recycling game",
+    title: "Recycling Superheroes",
+    description: "ReactDnD drag and drop game teaching kids recycling."
   },
   {
     url: "https://github.com/starsuit/mastermind",
