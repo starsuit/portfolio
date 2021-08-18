@@ -57,6 +57,7 @@ main {
 
 h1 {
   margin: 0;
+  padding-top: 1.25em;
   font-size: 4rem;
   text-align: center;
   text-shadow: -1px -1px 0 hsl(var(--col3), 90%, 88%);
@@ -75,11 +76,16 @@ a:hover {
   text-decoration: underline;
 }
 
+.pronouns {
+  display: inline;
+  font-size: .5em;
+}
+
 .subtitle {
   display: block;
-  max-width: 20em;
-  margin: 0 auto;
-  font-size: 2em;
+  max-width: 25em;
+  margin: 1em auto;
+  font-size: 1.75em;
   text-align: center;
 }
 
@@ -99,7 +105,7 @@ a:hover {
 }
 
 .card-container {
-  margin-top: 1.5em;
+  margin-top: 5em;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1.5em;
@@ -108,7 +114,7 @@ a:hover {
 .look {
   display: block;
   max-width: 20em;
-  margin: 0 auto;
+  margin: 1em auto;
   font-size: 1.75em;
   padding-top: 1em;
   text-align: center;
@@ -174,7 +180,7 @@ a:hover {
 
 @media (min-width: 50em) {
   .card-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .dark-card {
